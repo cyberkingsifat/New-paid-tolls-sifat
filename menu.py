@@ -26,6 +26,6 @@ print("[2]old clone_2")
 
 x = input('choice : ')
 if x in ['1']:
-	os.system("python smpaid_enc_12.py")
+	os.system("python key_enc.py")
 if x in ['2']:
 	os.system("python oldsi_enc.py")
